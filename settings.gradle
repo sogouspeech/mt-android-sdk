@@ -1,0 +1,2 @@
+include ':mt'
+rootProject.name='mt-android-sdk'
