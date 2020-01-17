@@ -1,7 +1,17 @@
 # 欢迎使用搜狗知音在线翻译sdk
 ## 一、搜狗知音官网注册
 
-开发者首先要在[搜狗知音官网](https://zhiyin.sogou.com/)注册开发者信息，然后注册app信息获取appId、appKey；然后参照[在线翻译demo](https://github.com/sogouspeech/mt-android-demo)进行配置。
+开发者首先要在[搜狗知音官网](https://zhiyin.sogou.com/)注册开发者信息，然后注册app信息获取appId、appKey。在线翻译支持中文翻译为英文、日文、韩文、法文、西班牙文、俄文、德文，以及英文、日文、韩文、法文、西班牙文、俄文、德文翻译为中文，可参照[在线翻译demo](https://github.com/sogouspeech/mt-android-demo)进行配置，语种参数如下：
+```
+ public static final String CHINESE = "zh-cmn-Hans";
+ public static final String ENGLISH = "en";
+ public static final String JAPANESE = "ja";
+ public static final String KOREAN = "ko";
+ public static final String FRENCH = "fr";
+ public static final String SPANISH = "es";
+ public static final String RUSSIAN = "ru";
+ public static final String GERMAN = "de";
+```
 
 ## 二、依赖配置
 1、在项目根gradle中进行如下配置：
